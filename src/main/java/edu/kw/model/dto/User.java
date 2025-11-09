@@ -1,0 +1,16 @@
+package edu.kw.model.dto;
+
+import lombok.*;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+public class User {
+    private String userId;
+    private String userName;
+    private String password;
+    private String role;
+
+}
